@@ -1,0 +1,227 @@
+/* tei overrides */
+
+:root {
+    padding: 20px 50px;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/* drop cap (sort of works) */
+div[type=chapter] > p:first-of-type::first-letter {
+    font-size: 46px;
+    float: left;
+    margin: 6px 6px 0 0;
+    line-height: 0.8;
+}
+
+front {
+    margin: 0;
+    padding: 0;
+}
+
+front titlePage {
+    text-align: left;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+front note {
+    display: block !important;
+    color: inherit;
+}
+
+front note:before {
+    content: none;
+}
+
+front addrLine {
+    display: block;
+}
+
+front biblFull {
+    display: block;
+}
+
+front resp {
+    display: block;
+}
+
+front ab {
+    display: block;
+}
+
+front ab persname {
+    font-variant: small-caps;
+}
+
+front list > item > list > item {
+    margin-left: 30px;
+}
+
+front > titlePage > docEdition:nth-child(1) note {
+    margin-left: 5em;
+}
+
+[rend="bold"] {
+    font-weight: bold;
+}
+
+[rend="italic"] {
+    font-style: italic;
+}
+
+p {
+    margin: 20px 0;
+    text-align: left !important;
+    text-indent: 0px !important;
+}
+
+note {
+	display: none;
+}
+
+docTitle {
+    font-size: 120%;
+}
+
+figure {
+    margin: 10px 0px !important;
+}
+
+ref {
+    color: #000000 !important;
+}
+
+ref[target^="http://"], ref[target^="https://"] {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+hi {
+    background: none !important;
+}
+
+persName, placeName, orgName, title {
+    color: #000000 !important;
+}
+
+/* graphic {
+    display: none;
+} */
+
+figDesc {
+    display: none;
+}
+
+figure > head {
+    font-weight: normal;
+    text-align: center;
+}
+
+figure > p, figure > ab {
+    text-align: center;
+}
+
+list {
+	counter-reset: item;
+}
+
+list > item {
+	counter-increment: item;
+	display: list-item;
+	margin: 15px 0;
+	list-style: none;
+}
+
+list > item:before {
+	content: counter(item) ".";
+}
+
+q::before, quote::before {
+    content: "";
+}
+q::after, quote::after {
+    content: "";
+}
+
+q:not([type="block"]):not([rend="bloc"])::before, quote:not([type="block"]):not([rend="bloc"])::before {
+    content: "\201C";
+}
+q:not([type="block"]):not([rend="bloc"])::after, quote:not([type="block"]):not([rend="bloc"])::after {
+    content: "\201D";
+}
+
+q[type="block"], q[rend="bloc"], quote[type="block"], quote[rend="bloc"] {
+	display: block;
+	margin: 10px 40px;
+}
+
+title[level = "a"]:before, title[level = "u"]:before {
+    content: "\201C";
+}
+
+title[level = "a"]:after, title[level = "u"]:after {
+    content: "\201D";
+}
+
+/* hide chapter header */
+:root > head,
+:root > docAuthor,
+:root > byline {
+    display: none;
+}
+
+head {
+    display: block;
+    font-weight: bold;
+}
+
+bibl {
+    display: block !important;
+    margin: 8px 0 !important;
+    padding-left: 24px !important;
+    text-indent: -24px !important;
+}
+
+table {
+    table-layout: fixed;
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+cell {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: none;
+    border-left: none;
+    padding: 5px 0px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+cell p {
+	margin: 0;
+}
+
+l:first-child:before {
+    content: none;
+}
+l:before {
+	content: "\A";
+	white-space: pre;
+}
+
+lg {
+    margin-bottom: 20px;
+}
+
+l {
+    display: inline;
+}
+
+l:after {
+    content: none;
+}

@@ -1,0 +1,34 @@
+<org.voyanttools.trombone.util.FlexibleParameters>
+  <entries>
+    <entry>
+      <string>queryParameters</string>
+      <list>
+        <string>VOYANT_BUILD=&amp;xmlAuthorXpath=%2F%2Ffront%2F%2FdocAuthor&amp;accessIP=127.0.0.1&amp;VOYANT_VERSION=2.6.2&amp;dtocIndexDoc=-1&amp;inputFormat=TEI&amp;title=Frankenstein&amp;suppressTools=false&amp;textarea-1015-inputEl=Type+in+one+or+more+URLs+on+separate+lines+or+paste+in+a+full+text.&amp;VOYANT_REMOTE_ID=127.0.0.1&amp;subTitle=or%2C+the+Modern+Prometheus&amp;palette=default&amp;categories=auto&amp;xmlTitleXpath=%2F%2Ffront%2F%2FdocTitle</string>
+      </list>
+    </entry>
+    <entry>
+      <string>modified</string>
+      <list>
+        <string>1672940965261</string>
+      </list>
+    </entry>
+    <entry>
+      <string>location</string>
+      <list>
+        <string>frnknstn.xml</string>
+      </list>
+    </entry>
+    <entry>
+      <string>source</string>
+      <list>
+        <string>file</string>
+      </list>
+    </entry>
+    <entry>
+      <string>title</string>
+      <list>
+        <string>frnknstn</string>
+      </list>
+    </entry>
+  </entries>
+</org.voyanttools.trombone.util.FlexibleParameters>

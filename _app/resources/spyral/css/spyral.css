@@ -1,0 +1,230 @@
+.notebook-code-editor {
+	padding: 0px;
+	margin: 0px;
+}
+.notebook-text-editor {
+	padding: 6px;
+	margin: 0px;
+}
+.notebook-text-editor p {
+	padding: 0 0 0 0;
+	margin: 0 0 1em 0;
+}
+.notebook-text-wrapper .x-panel-body {
+   border: 1px solid rgba(0,0,0,0) !important;
+}
+.notebook-code-wrapper .x-panel-body, .notebook-data-wrapper .x-panel-body {
+   border: 1px solid rgba(0,0,0,0) !important;
+}
+.x-panel .notebook-editor-wrapper-hover.x-panel-body, .editable .x-panel-body {
+	outline: 1px dashed rgba(0,0,0,.2) !important;
+	outline-offset: -1px !important;
+}
+.x-panel .notebook-editor-wrapper-editing.x-panel-body {
+	outline: 1px solid rgba(0,0,0,.2) !important;
+	outline-offset: -1px !important;
+}
+.notebook-code-editor {
+	border-left: 1px solid rgb(240, 240, 240);
+}
+.notebook-code-editor .spyral-editor-error {
+	background-color: rgba(194, 50, 65, .3) !important;
+}
+.notebook-code-results, .notebook-data-input {
+	background-color: rgb(252, 252, 252);
+	border-left: 3px solid rgb(240, 240, 240);
+}
+.notebook-code-results.error {
+	border-left-color: rgba(194, 50, 65, .5);
+}
+.notebook-code-results.success {
+	/* border-left-color: rgba(30, 189, 66, .5); */
+	border-left-color: rgba(23, 145, 232, .5);
+}
+.notebook-code-results.warning {
+	border-left-color: rgba(232, 147, 23, .5);
+}
+
+.notebook-code-editor-raw { /* used for raw code in saved view */
+	display: none;
+}
+.cke_button__sourcedialog_label {
+	display: none !important;
+}
+
+body.exported-notebook {
+	font-family: helvetica, arial, verdana, sans-serif;
+	font-size: 13px;
+}
+.exported-notebook header, .exported-notebook section {
+	margin: 10px auto;
+	max-width: 1100px;
+}
+
+.exported-notebook .notebookwrappercounter {
+	float: right;
+}
+.exported-notebook .notebookwrappercounter a {
+	text-decoration: none;
+}
+
+.notebookwrappercounter a {
+	border-radius: 3px;
+	background-color: #f5f5f5;
+	text-align: right;
+	border: 1px solid #d8d8d8;
+	padding: 1px;
+	margin: 1px;
+	font-size: smaller;
+}
+
+.spyral-code-mask .x-mask-msg-text { /* reposition loading gif to the left side */
+	padding: 0 0 0 21px;
+	background-position: 0;
+}
+
+.spyral-header, .spyral-footer {
+	text-align: center;
+}
+
+.spyral-header .title {
+	font-size: 2em;
+	font-weight: bold;
+	display: block;
+	margin: 0.67em 0;
+}
+
+.catalogue .facets .x-panel-header {
+	cursor: pointer;
+}
+
+
+.notebook-code-editor-raw {
+	display: none;
+}
+.notebookcodeeditorwrapper .collapsed {
+	overflow: auto;
+	max-height: 120px;
+}
+
+.notebook-code-results .collapsed {
+	overflow: auto;
+}
+
+.catalogue-notebook {
+	margin: 0px;
+	padding: 10px;
+	border: 1px solid #fff;
+	border-bottom: 1px solid #ccc;
+	font-size: 13px;
+	line-height: 18px;
+}
+.catalogue-notebook-over {
+	background-color: #eee;
+	cursor: pointer;
+}
+.catalogue-notebook-over .id {
+	visibility: visible !important;
+}
+.catalogue-notebook-selected {
+	background-color: #ddd;
+	border: 1px solid #aaa;
+}
+.catalogue-notebook > div {
+	margin: 0px 0px 3px 0px;
+}
+.catalogue-notebook .id {
+	float: right;
+	color: #666;
+	font-size: 9px;
+	line-height: 9px;
+	visibility: hidden;
+}
+.catalogue-notebook .title {
+	color: #333;
+	font-weight: 600;
+}
+.catalogue-notebook .published {
+	color: #157fcc;
+	margin-right: 2px;
+}
+.catalogue-window .catalogue-notebook .published {
+	display: none;
+}
+.catalogue-notebook .author, .catalogue-notebook .keywords, .catalogue-notebook .date {
+	color: #666;
+	font-size: 11px;
+}
+.catalogue-notebook .keywords span {
+	font-size: 9px;
+	background-color: #eee;
+	padding: 3px 5px;
+	border-radius: 3px;
+	margin-right: 5px;
+}
+.catalogue-notebook .nowrap {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.tern-doc {
+	display: block;
+}
+.tern-doc-url {
+	display: block;
+}
+.docsWindowContent .x-panel-body > div {
+	padding: 6px 8px;
+}
+.docsWindowContent .members {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: flex-start;
+}
+.docsWindowContent .member {
+	padding: 6px 18px 0 0;
+}
+.docsWindowContent a.side.expandable, .docsWindowContent .title .meta, .docsWindowContent .members-title, .docsWindowContent .members-subtitle, .docsWindowContent .definedBy {
+	display: none;
+}
+.docsWindowContent h3 {
+	font-size: 14px;
+}
+.docsWindowContent .title {
+	font-size: 16px;
+}
+.docsWindowContent .title .new-keyword {
+	margin-right: 5px;
+}
+.docsWindowContent .title .name {
+	font-weight: bold;
+}
+.docsWindowContent .members .static, .docsWindowContent .title .signature span {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #484848;
+	border-radius: 2px;
+	padding: 0 6px;
+}
+.docsWindowContent .members .static {
+	margin-right: 6px;
+}
+.docsWindowContent .title .signature span {
+	margin-left: 6px;
+}
+.docsWindowContent .description .short {
+	display: none;
+}
+.docsWindowContent pre {
+	white-space: pre-wrap;
+	background-color: #f7f7f7;
+	padding: 4px 8px;
+}
+.docsWindowContent .pre {
+	font-family: monospace;
+}

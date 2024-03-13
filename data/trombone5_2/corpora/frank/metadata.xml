@@ -1,0 +1,46 @@
+<org.voyanttools.trombone.util.FlexibleParameters>
+  <entries>
+    <entry>
+      <string>tokensCount-lexical</string>
+      <list>
+        <string>78030</string>
+      </list>
+    </entry>
+    <entry>
+      <string>subTitle</string>
+      <list>
+        <string>or, the Modern Prometheus</string>
+      </list>
+    </entry>
+    <entry>
+      <string>typesCount-lexical</string>
+      <list>
+        <string>7296</string>
+      </list>
+    </entry>
+    <entry>
+      <string>createdTime</string>
+      <list>
+        <string>1672940967185</string>
+      </list>
+    </entry>
+    <entry>
+      <string>id</string>
+      <list>
+        <string>frank</string>
+      </list>
+    </entry>
+    <entry>
+      <string>title</string>
+      <list>
+        <string>Frankenstein</string>
+      </list>
+    </entry>
+    <entry>
+      <string>documentIds</string>
+      <list>
+        <string>2d2ebc17223ac3063f2f035151ac5c6d</string>
+      </list>
+    </entry>
+  </entries>
+</org.voyanttools.trombone.util.FlexibleParameters>

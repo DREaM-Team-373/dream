@@ -1,0 +1,1292 @@
+[
+  {
+    "locs": [
+      {
+        "offset": 0,
+        "name": "LONDON",
+        "conf": 0.990244,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 32,
+        "name": "Egypt",
+        "conf": 0.759266,
+        "lat": "30.033333333333335",
+        "long": "31.216666666666665"
+      }
+    ],
+    "filename": "A58819.xml",
+    "year": 1692,
+    "title": "A sermon preached before the queen the 22d of May, 1692 upon occasion of the late victory obtained by Their Majesties fleet over the French / by John Scott ...",
+    "URL": "/misc/data18/patx/barrieca/McGill-Sinclair/code/texts/1/A58819.txt",
+    "authors": "Scott, John, 1639-1695"
+  },
+  {
+    "locs": [
+      {
+        "offset": 184,
+        "name": "Spain",
+        "conf": 0.999838,
+        "lat": "40.43333333333333",
+        "long": "-3.7"
+      },
+      {
+        "offset": 81,
+        "name": "Dunkirk",
+        "conf": 0.947835,
+        "lat": "51.0383",
+        "long": "2.3775"
+      },
+      {
+        "offset": 89,
+        "name": "Ireland",
+        "conf": 0.988227,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 878,
+        "name": "Ireland",
+        "conf": 0.988633,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 1036,
+        "name": "Ireland",
+        "conf": 0.999625,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 1425,
+        "name": "Ireland",
+        "conf": 0.977838,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 1750,
+        "name": "Ireland",
+        "conf": 0.997216,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 311,
+        "name": "Ireland",
+        "conf": 0.985964,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 540,
+        "name": "Ireland",
+        "conf": 0.998274,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 823,
+        "name": "Ireland",
+        "conf": 0.998678,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 1166,
+        "name": "Ireland",
+        "conf": 0.967031,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 189,
+        "name": "Spain",
+        "conf": 0.999966,
+        "lat": "40.43333333333333",
+        "long": "-3.7"
+      },
+      {
+        "offset": 73,
+        "name": "London",
+        "conf": 0.992499,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 652,
+        "name": "Hammersmith",
+        "conf": 0.987324,
+        "lat": "51.4928",
+        "long": "-0.2229"
+      },
+      {
+        "offset": 288,
+        "name": "Spain",
+        "conf": 0.999977,
+        "lat": "40.43333333333333",
+        "long": "-3.7"
+      },
+      {
+        "offset": 1425,
+        "name": "Spain",
+        "conf": 0.999978,
+        "lat": "40.43333333333333",
+        "long": "-3.7"
+      },
+      {
+        "offset": 1549,
+        "name": "Brussels",
+        "conf": 0.999708,
+        "lat": "50.85",
+        "long": "4.35"
+      },
+      {
+        "offset": 41,
+        "name": "Kensington",
+        "conf": 0.989428,
+        "lat": "51.5",
+        "long": "-0.19"
+      },
+      {
+        "offset": 79,
+        "name": "London",
+        "conf": 0.9999,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 58,
+        "name": "Hammersmith",
+        "conf": 0.71077,
+        "lat": "51.4928",
+        "long": "-0.2229"
+      },
+      {
+        "offset": 123,
+        "name": "London",
+        "conf": 0.996546,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 214,
+        "name": "London",
+        "conf": 0.999747,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 9,
+        "name": "London",
+        "conf": 0.996046,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 326,
+        "name": "London",
+        "conf": 0.995678,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 1317,
+        "name": "London",
+        "conf": 0.999151,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 191,
+        "name": "Ireland",
+        "conf": 0.975181,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 70,
+        "name": "London",
+        "conf": 0.99974,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 9,
+        "name": "London",
+        "conf": 0.947675,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 87,
+        "name": "London",
+        "conf": 0.998354,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 2162,
+        "name": "London",
+        "conf": 0.994975,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 2388,
+        "name": "London",
+        "conf": 0.999801,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 726,
+        "name": "London",
+        "conf": 0.999982,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 343,
+        "name": "London",
+        "conf": 0.991936,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 149,
+        "name": "London",
+        "conf": 0.99947,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 326,
+        "name": "London",
+        "conf": 0.997382,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 112,
+        "name": "Ireland",
+        "conf": 0.97803,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 237,
+        "name": "London",
+        "conf": 0.997981,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 392,
+        "name": "London",
+        "conf": 0.991341,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 222,
+        "name": "Israel",
+        "conf": 0.999403,
+        "lat": "31.783333333333335",
+        "long": "35.21666666666667"
+      },
+      {
+        "offset": 99,
+        "name": "France",
+        "conf": 0.998781,
+        "lat": "48.85666666666667",
+        "long": "2.350833333333333"
+      },
+      {
+        "offset": 334,
+        "name": "London",
+        "conf": 0.993736,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 488,
+        "name": "Ireland",
+        "conf": 0.972296,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 270,
+        "name": "Ireland",
+        "conf": 0.645383,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 88,
+        "name": "Ireland",
+        "conf": 0.99915,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 508,
+        "name": "Ireland",
+        "conf": 0.990605,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 1186,
+        "name": "London",
+        "conf": 0.998055,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 1419,
+        "name": "London",
+        "conf": 0.994239,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 472,
+        "name": "Ireland",
+        "conf": 0.996069,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 92,
+        "name": "Ireland",
+        "conf": 0.998603,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 56,
+        "name": "Ireland",
+        "conf": 0.997282,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 0,
+        "name": "London",
+        "conf": 0.997819,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 150,
+        "name": "London",
+        "conf": 0.997472,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 115,
+        "name": "London",
+        "conf": 0.999869,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 247,
+        "name": "London",
+        "conf": 0.999698,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 41,
+        "name": "Poland",
+        "conf": 0.998998,
+        "lat": "52.21666666666667",
+        "long": "21.033333333333335"
+      },
+      {
+        "offset": 78,
+        "name": "Poland",
+        "conf": 0.99834,
+        "lat": "52.21666666666667",
+        "long": "21.033333333333335"
+      },
+      {
+        "offset": 583,
+        "name": "Brazil",
+        "conf": 0.999985,
+        "lat": "-15.783333333333333",
+        "long": "-47.86666666666667"
+      },
+      {
+        "offset": 455,
+        "name": "Hungary",
+        "conf": 0.999424,
+        "lat": "47.43333333333333",
+        "long": "19.25"
+      },
+      {
+        "offset": 783,
+        "name": "Rome",
+        "conf": 0.998637,
+        "lat": "41.9",
+        "long": "12.5"
+      },
+      {
+        "offset": 67,
+        "name": "Ireland",
+        "conf": 0.982819,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 248,
+        "name": "Warwick",
+        "conf": 0.817634,
+        "lat": "52.28",
+        "long": "-1.59"
+      },
+      {
+        "offset": 297,
+        "name": "Manchester",
+        "conf": 0.758697,
+        "lat": "53.46666666666667",
+        "long": "-2.2333333333333334"
+      },
+      {
+        "offset": 80,
+        "name": "Sweden",
+        "conf": 0.999763,
+        "lat": "59.35",
+        "long": "18.066666666666666"
+      },
+      {
+        "offset": 91,
+        "name": "Denmark",
+        "conf": 0.999975,
+        "lat": "55.71666666666667",
+        "long": "12.566666666666666"
+      },
+      {
+        "offset": 878,
+        "name": "Sweden",
+        "conf": 0.998059,
+        "lat": "59.35",
+        "long": "18.066666666666666"
+      },
+      {
+        "offset": 921,
+        "name": "Sweden",
+        "conf": 0.994785,
+        "lat": "59.35",
+        "long": "18.066666666666666"
+      },
+      {
+        "offset": 8,
+        "name": "Denmark",
+        "conf": 0.999453,
+        "lat": "55.71666666666667",
+        "long": "12.566666666666666"
+      },
+      {
+        "offset": 512,
+        "name": "Denmark",
+        "conf": 0.938413,
+        "lat": "55.71666666666667",
+        "long": "12.566666666666666"
+      },
+      {
+        "offset": 537,
+        "name": "Denmark",
+        "conf": 0.979165,
+        "lat": "55.71666666666667",
+        "long": "12.566666666666666"
+      },
+      {
+        "offset": 567,
+        "name": "Sweden",
+        "conf": 0.999075,
+        "lat": "59.35",
+        "long": "18.066666666666666"
+      },
+      {
+        "offset": 616,
+        "name": "Norway",
+        "conf": 0.999932,
+        "lat": "59.93333333333333",
+        "long": "10.683333333333334"
+      },
+      {
+        "offset": 734,
+        "name": "Sweden",
+        "conf": 0.942476,
+        "lat": "59.35",
+        "long": "18.066666666666666"
+      },
+      {
+        "offset": 770,
+        "name": "Denmark",
+        "conf": 0.93797,
+        "lat": "55.71666666666667",
+        "long": "12.566666666666666"
+      },
+      {
+        "offset": 856,
+        "name": "Denmark",
+        "conf": 0.999971,
+        "lat": "55.71666666666667",
+        "long": "12.566666666666666"
+      },
+      {
+        "offset": 867,
+        "name": "Norway",
+        "conf": 0.99751,
+        "lat": "59.93333333333333",
+        "long": "10.683333333333334"
+      },
+      {
+        "offset": 978,
+        "name": "Bremen",
+        "conf": 0.930491,
+        "lat": "53.083333333333336",
+        "long": "8.8"
+      },
+      {
+        "offset": 1078,
+        "name": "Denmark",
+        "conf": 0.998618,
+        "lat": "55.71666666666667",
+        "long": "12.566666666666666"
+      },
+      {
+        "offset": 1252,
+        "name": "Sweden",
+        "conf": 0.990076,
+        "lat": "59.35",
+        "long": "18.066666666666666"
+      },
+      {
+        "offset": 1283,
+        "name": "Denmark",
+        "conf": 0.988695,
+        "lat": "55.71666666666667",
+        "long": "12.566666666666666"
+      },
+      {
+        "offset": 193,
+        "name": "Denmark",
+        "conf": 0.99999,
+        "lat": "55.71666666666667",
+        "long": "12.566666666666666"
+      },
+      {
+        "offset": 204,
+        "name": "Norway",
+        "conf": 0.988058,
+        "lat": "59.93333333333333",
+        "long": "10.683333333333334"
+      },
+      {
+        "offset": 229,
+        "name": "Sweden",
+        "conf": 0.999614,
+        "lat": "59.35",
+        "long": "18.066666666666666"
+      },
+      {
+        "offset": 475,
+        "name": "Denmark",
+        "conf": 0.985263,
+        "lat": "55.71666666666667",
+        "long": "12.566666666666666"
+      },
+      {
+        "offset": 517,
+        "name": "Sweden",
+        "conf": 0.895175,
+        "lat": "59.35",
+        "long": "18.066666666666666"
+      },
+      {
+        "offset": 700,
+        "name": "Sweden",
+        "conf": 0.98535,
+        "lat": "59.35",
+        "long": "18.066666666666666"
+      },
+      {
+        "offset": 724,
+        "name": "Denmark",
+        "conf": 0.99863,
+        "lat": "55.71666666666667",
+        "long": "12.566666666666666"
+      },
+      {
+        "offset": 852,
+        "name": "Denmark",
+        "conf": 0.994282,
+        "lat": "55.71666666666667",
+        "long": "12.566666666666666"
+      },
+      {
+        "offset": 130,
+        "name": "Denmark",
+        "conf": 0.980109,
+        "lat": "55.71666666666667",
+        "long": "12.566666666666666"
+      },
+      {
+        "offset": 204,
+        "name": "Sweden",
+        "conf": 0.719725,
+        "lat": "59.35",
+        "long": "18.066666666666666"
+      },
+      {
+        "offset": 447,
+        "name": "Denmark",
+        "conf": 0.999815,
+        "lat": "55.71666666666667",
+        "long": "12.566666666666666"
+      },
+      {
+        "offset": 743,
+        "name": "Denmark",
+        "conf": 0.982414,
+        "lat": "55.71666666666667",
+        "long": "12.566666666666666"
+      },
+      {
+        "offset": 823,
+        "name": "Denmark",
+        "conf": 0.992268,
+        "lat": "55.71666666666667",
+        "long": "12.566666666666666"
+      },
+      {
+        "offset": 853,
+        "name": "Sweden",
+        "conf": 0.90668,
+        "lat": "59.35",
+        "long": "18.066666666666666"
+      },
+      {
+        "offset": 77,
+        "name": "London",
+        "conf": 0.914249,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 135,
+        "name": "Brussels",
+        "conf": 0.999529,
+        "lat": "50.85",
+        "long": "4.35"
+      },
+      {
+        "offset": 145,
+        "name": "Ostend",
+        "conf": 0.99933,
+        "lat": "51.233333333333334",
+        "long": "2.9166666666666665"
+      },
+      {
+        "offset": 147,
+        "name": "London",
+        "conf": 0.999926,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 81,
+        "name": "Ireland",
+        "conf": 0.971042,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 933,
+        "name": "Rome",
+        "conf": 0.976587,
+        "lat": "41.9",
+        "long": "12.5"
+      },
+      {
+        "offset": 1774,
+        "name": "Rome",
+        "conf": 0.998725,
+        "lat": "41.9",
+        "long": "12.5"
+      },
+      {
+        "offset": 581,
+        "name": "Poland",
+        "conf": 0.995885,
+        "lat": "52.21666666666667",
+        "long": "21.033333333333335"
+      },
+      {
+        "offset": 1576,
+        "name": "Poland",
+        "conf": 0.999146,
+        "lat": "52.21666666666667",
+        "long": "21.033333333333335"
+      },
+      {
+        "offset": 1630,
+        "name": "Poland",
+        "conf": 0.999901,
+        "lat": "52.21666666666667",
+        "long": "21.033333333333335"
+      },
+      {
+        "offset": 426,
+        "name": "Brandenburg",
+        "conf": 0.969604,
+        "lat": "52.36194444444445",
+        "long": "13.008055555555556"
+      },
+      {
+        "offset": 451,
+        "name": "Hungary",
+        "conf": 0.999958,
+        "lat": "47.43333333333333",
+        "long": "19.25"
+      },
+      {
+        "offset": 427,
+        "name": "Ireland",
+        "conf": 0.989612,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 159,
+        "name": "London",
+        "conf": 0.998542,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 221,
+        "name": "London",
+        "conf": 0.999061,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 430,
+        "name": "London",
+        "conf": 0.998189,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 25,
+        "name": "Dunkirk",
+        "conf": 0.988769,
+        "lat": "51.0383",
+        "long": "2.3775"
+      },
+      {
+        "offset": 210,
+        "name": "Bergen",
+        "conf": 0.548469,
+        "lat": "60.38944444444444",
+        "long": "5.33"
+      },
+      {
+        "offset": 49,
+        "name": "Dunkirk",
+        "conf": 0.992813,
+        "lat": "51.0383",
+        "long": "2.3775"
+      },
+      {
+        "offset": 249,
+        "name": "Ireland",
+        "conf": 0.966182,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 557,
+        "name": "Dunkirk",
+        "conf": 0.998096,
+        "lat": "51.0383",
+        "long": "2.3775"
+      },
+      {
+        "offset": 1067,
+        "name": "Dunkirk",
+        "conf": 0.999534,
+        "lat": "51.0383",
+        "long": "2.3775"
+      },
+      {
+        "offset": 163,
+        "name": "Cambridge",
+        "conf": 0.976508,
+        "lat": "52.205",
+        "long": "0.119"
+      }
+    ],
+    "filename": "A40752.xml",
+    "year": 1658,
+    "title": "A Further narrative of the passages of these times in the Common-wealth of England an act for renouncing and disanulling the pretended title of Charls Stuart, and for the taking away of the Court of Wards and Liveries, the judgment ... against James Naylor the Quaker : with the triall of Miles Sundercombe ...",
+    "URL": "/misc/data18/patx/barrieca/McGill-Sinclair/code/texts/1/A40752.txt"
+  },
+  {
+    "locs": [
+      {
+        "offset": 0,
+        "name": "LONDON",
+        "conf": 0.999322,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 186,
+        "name": "Rome",
+        "conf": 0.991252,
+        "lat": "41.9",
+        "long": "12.5"
+      },
+      {
+        "offset": 261,
+        "name": "Rome",
+        "conf": 0.998249,
+        "lat": "41.9",
+        "long": "12.5"
+      },
+      {
+        "offset": 106,
+        "name": "Rome",
+        "conf": 0.996714,
+        "lat": "41.9",
+        "long": "12.5"
+      },
+      {
+        "offset": 443,
+        "name": "Rome",
+        "conf": 0.999897,
+        "lat": "41.9",
+        "long": "12.5"
+      },
+      {
+        "offset": 757,
+        "name": "Rome",
+        "conf": 0.999251,
+        "lat": "41.9",
+        "long": "12.5"
+      },
+      {
+        "offset": 326,
+        "name": "Rome",
+        "conf": 0.998058,
+        "lat": "41.9",
+        "long": "12.5"
+      },
+      {
+        "offset": 551,
+        "name": "Rome",
+        "conf": 0.999769,
+        "lat": "41.9",
+        "long": "12.5"
+      },
+      {
+        "offset": 516,
+        "name": "Rome",
+        "conf": 0.999825,
+        "lat": "41.9",
+        "long": "12.5"
+      },
+      {
+        "offset": 396,
+        "name": "Rome",
+        "conf": 0.940541,
+        "lat": "41.9",
+        "long": "12.5"
+      },
+      {
+        "offset": 133,
+        "name": "Jerusalem",
+        "conf": 0.999509,
+        "lat": "31.783333333333335",
+        "long": "35.21666666666667"
+      }
+    ],
+    "filename": "A12799.xml",
+    "year": 1623,
+    "title": "The Christian sword and buckler, or, A letter by D. Sprint to a man seuen yeares grieuously afflicted in conscience and fearefully possessed by the Diuel very comfortable and commodious to withstand the assaults of Sathan.",
+    "URL": "/misc/data18/patx/barrieca/McGill-Sinclair/code/texts/1/A12799.txt",
+    "authors": "Sprint, John, d. 1623"
+  },
+  {
+    "locs": [{
+      "offset": 45,
+      "name": "London",
+      "conf": 0.99975,
+      "lat": "51.507222222222225",
+      "long": "-0.1275"
+    }],
+    "filename": "A92203.xml",
+    "year": 1653,
+    "title": "The complaint of many free-holders, farmer, and others, of the Common-wealth of England:  Against the unlawfull planting of English tobacco. With an act of Parliament prohibiting the same.",
+    "URL": "/misc/data18/patx/barrieca/McGill-Sinclair/code/texts/1/A92203.txt",
+    "authors": "Read, Robert, fl. 1653-1656"
+  },
+  {
+    "locs": [
+      {
+        "offset": 219,
+        "name": "London",
+        "conf": 0.998978,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 0,
+        "name": "LONDON",
+        "conf": 0.999677,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 228,
+        "name": "London",
+        "conf": 0.999316,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 175,
+        "name": "London",
+        "conf": 0.993218,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 102,
+        "name": "London",
+        "conf": 0.998841,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 1457,
+        "name": "London",
+        "conf": 0.998967,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 757,
+        "name": "Ireland",
+        "conf": 0.982064,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 188,
+        "name": "Ireland",
+        "conf": 0.998015,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 190,
+        "name": "London",
+        "conf": 0.997786,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 536,
+        "name": "Ireland",
+        "conf": 0.997921,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      },
+      {
+        "offset": 735,
+        "name": "Ireland",
+        "conf": 0.90477,
+        "lat": "53.416666666666664",
+        "long": "-8.0"
+      }
+    ],
+    "filename": "A91232.xml",
+    "title": "New Presbyterian light springing out of Independent darkness. or VI. important new queries proposed to the Army, and their friends and party of the Houses;:  concerning the late ordinance for repeal of the new militia of London, setled by an ordinance of both Houses, when full and free, for an whole year, (not yet one quarter expired;) and other late repeals of ordinances and votes; and the high declaration against the intended petition and engagement of the Londoners and others, for the speedy settlement of the kingdomes peace: occasioned by the debates thereof in the Common Councel in the Guildhal on Saturday last, the 24 of this instant Iuly. Discovering the dangerous consequences of repealing ordinances and votes, and the Independents, sectaries, and Armies plots, to blast the honour, justice, and reputation of this Parliament, thereby to dissolve it and all others in it; their false pretences of peace, when they intend nought lesse; and their strange injustice and malice against Presbyterians, which will end in their own dishonour and downfal.",
+    "URL": "/misc/data18/patx/barrieca/McGill-Sinclair/code/texts/1/A91232.txt",
+    "authors": "Prynne, William, 1600-1669"
+  },
+  {
+    "locs": [
+      {
+        "offset": 0,
+        "name": "London",
+        "conf": 0.99999,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 3,
+        "name": "Jerusalem",
+        "conf": 0.999998,
+        "lat": "31.783333333333335",
+        "long": "35.21666666666667"
+      },
+      {
+        "offset": 5,
+        "name": "Rome",
+        "conf": 0.999845,
+        "lat": "41.9",
+        "long": "12.5"
+      },
+      {
+        "offset": 5,
+        "name": "Rome",
+        "conf": 0.990396,
+        "lat": "41.9",
+        "long": "12.5"
+      },
+      {
+        "offset": 10,
+        "name": "Rome",
+        "conf": 0.817938,
+        "lat": "41.9",
+        "long": "12.5"
+      },
+      {
+        "offset": 17,
+        "name": "Israel",
+        "conf": 0.99314,
+        "lat": "31.783333333333335",
+        "long": "35.21666666666667"
+      },
+      {
+        "offset": 29,
+        "name": "Israel",
+        "conf": 0.999271,
+        "lat": "31.783333333333335",
+        "long": "35.21666666666667"
+      },
+      {
+        "offset": 45,
+        "name": "Queens",
+        "conf": 0.999816,
+        "lat": "40.75",
+        "long": "-73.86666666666666"
+      },
+      {
+        "offset": 34,
+        "name": "Israel",
+        "conf": 0.999958,
+        "lat": "31.783333333333335",
+        "long": "35.21666666666667"
+      },
+      {
+        "offset": 9,
+        "name": "Israel",
+        "conf": 0.999952,
+        "lat": "31.783333333333335",
+        "long": "35.21666666666667"
+      }
+    ],
+    "filename": "A96612.xml",
+    "year": 1652,
+    "title": "The fourth paper, presented by Maior Butler, to the Honourable Committee of Parliament, for the propagating the gospel of Christ Jesus.:  VVhich paper was humbly owned, and was, and is attended to be made good by Major Butler. Mr. Charles Vane. Col. Danvers. Mr. Iackson. Mr. VVall. And Mr. Turner. Also a letter from Mr. Goad, to Major Butler, upon occasion of the said paper and proposals. Together with a testimony to the said fourth paper, by way of explanation upon the four proposals of it. / By R.W. Unto which is subjoyned the fifteen proposals of the ministers.",
+    "URL": "/misc/data18/patx/barrieca/McGill-Sinclair/code/texts/1/A96612.txt",
+    "authors": "Williams, Roger, 1604?-1683"
+  },
+  {
+    "locs": [
+      {
+        "offset": 16,
+        "name": "Bern",
+        "conf": 0.999531,
+        "lat": "46.95",
+        "long": "7.45"
+      },
+      {
+        "offset": 25,
+        "name": "Geneva",
+        "conf": 0.975678,
+        "lat": "46.2",
+        "long": "6.15"
+      }
+    ],
+    "filename": "A38076.xml",
+    "year": 1695,
+    "title": "Remarks upon a book lately published by Dr. Will. Sherlock ... entituled, A modest examination of the Oxford decree, &c.",
+    "URL": "/misc/data18/patx/barrieca/McGill-Sinclair/code/texts/1/A38076.txt",
+    "authors": "Edwards, Jonathan, 1629-1712"
+  },
+  {
+    "locs": [
+      {
+        "offset": 194,
+        "name": "Egypt",
+        "conf": 0.999468,
+        "lat": "30.033333333333335",
+        "long": "31.216666666666665"
+      },
+      {
+        "offset": 0,
+        "name": "London",
+        "conf": 0.91885,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 1381,
+        "name": "Israel",
+        "conf": 0.999946,
+        "lat": "31.783333333333335",
+        "long": "35.21666666666667"
+      },
+      {
+        "offset": 226,
+        "name": "Egypt",
+        "conf": 0.998108,
+        "lat": "30.033333333333335",
+        "long": "31.216666666666665"
+      },
+      {
+        "offset": 542,
+        "name": "Egypt",
+        "conf": 0.998667,
+        "lat": "30.033333333333335",
+        "long": "31.216666666666665"
+      },
+      {
+        "offset": 1703,
+        "name": "Egypt",
+        "conf": 0.999956,
+        "lat": "30.033333333333335",
+        "long": "31.216666666666665"
+      },
+      {
+        "offset": 708,
+        "name": "Egypt",
+        "conf": 0.999826,
+        "lat": "30.033333333333335",
+        "long": "31.216666666666665"
+      }
+    ],
+    "filename": "A35833.xml",
+    "year": 1655,
+    "title": "The discovery of mans return to his first estate by the operation of the power of God in the great work of regeneration with a word to all saints who set their faces towards Sion to seek the Lord their God ... : a word to the back-slider who hath tasted of the good word of God ... : with a discovery of mystery-Babylon and her merchants  .... / written by one whom the people of this world calls a Quaker, whose name in the flesh is William Deusbury, but hath a new name the world knows not written in the book of life.",
+    "URL": "/misc/data18/patx/barrieca/McGill-Sinclair/code/texts/1/A35833.txt",
+    "authors": "Dewsbury, William, 1621-1688"
+  },
+  {
+    "locs": [
+      {
+        "offset": 0,
+        "name": "LONDON",
+        "conf": 0.999723,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 0,
+        "name": "Rome",
+        "conf": 0.709725,
+        "lat": "41.9",
+        "long": "12.5"
+      },
+      {
+        "offset": 10,
+        "name": "Rome",
+        "conf": 0.99997,
+        "lat": "41.9",
+        "long": "12.5"
+      },
+      {
+        "offset": 17,
+        "name": "Jerusalem",
+        "conf": 0.999182,
+        "lat": "31.783333333333335",
+        "long": "35.21666666666667"
+      }
+    ],
+    "filename": "A67825.xml",
+    "year": 1688,
+    "title": "A sermon exhorting to union in religion preach'd at Bow-Church, May 20th, and published at the desire of the auditory / by E. Young.",
+    "URL": "/misc/data18/patx/barrieca/McGill-Sinclair/code/texts/1/A67825.txt",
+    "authors": "Young, Edward, 1641 or 2-1705"
+  },
+  {
+    "locs": [
+      {
+        "offset": 0,
+        "name": "London",
+        "conf": 0.999933,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 2011,
+        "name": "France",
+        "conf": 0.999089,
+        "lat": "48.85666666666667",
+        "long": "2.350833333333333"
+      },
+      {
+        "offset": 455,
+        "name": "London",
+        "conf": 0.999591,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 1274,
+        "name": "London",
+        "conf": 0.999531,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 1799,
+        "name": "York",
+        "conf": 0.986091,
+        "lat": "53.958333333333336",
+        "long": "-1.0802777777777777"
+      },
+      {
+        "offset": 2098,
+        "name": "York",
+        "conf": 0.813926,
+        "lat": "53.958333333333336",
+        "long": "-1.0802777777777777"
+      },
+      {
+        "offset": 709,
+        "name": "London",
+        "conf": 0.990245,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      },
+      {
+        "offset": 1083,
+        "name": "London",
+        "conf": 0.993065,
+        "lat": "51.507222222222225",
+        "long": "-0.1275"
+      }
+    ],
+    "filename": "A95483.xml",
+    "year": 1642,
+    "title": "Two strange prophesies, predicting wonderfull events, to betide this yeere of danger, in this clymate, whereof some have already come to passe.:  Well worthy of note: the one being found in the reigne of King Edward the fourth: the other in the reigne of King Henry the eighth: named Mother Shipton.",
+    "URL": "/misc/data18/patx/barrieca/McGill-Sinclair/code/texts/1/A95483.txt",
+    "authors": "Shipton, Mother (Ursula)"
+  }
+]

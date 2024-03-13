@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee  http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+
+	<context-param xmlns=""><param-name>version</param-name><param-value>2.6.11</param-value></context-param>
+	<!-- whether or not to enable entities support on the frontend -->
+	<context-param xmlns=""><param-name>entitiesenabled</param-name><param-value>false</param-value></context-param>
+	
+	<session-config>
+		<session-timeout>30</session-timeout> <!-- session length in minutes -->
+	</session-config>
+	
+	<servlet>
+		<servlet-name>tool</servlet-name>
+		<jsp-file>/tool/index.jsp</jsp-file>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>catalogue</servlet-name>
+		<url-pattern>/catalogue/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>catalogue</servlet-name>
+		<jsp-file>/catalogue/index.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>microocp</servlet-name>
+		<url-pattern>/microocp/*</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>microocp</servlet-name>
+		<jsp-file>/microocp/index.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>tool</servlet-name>
+		<url-pattern>/tool/*</url-pattern>
+	</servlet-mapping>
+	
+	<!-- we changed from spiral to spyral, we'll redirect in spyral -->
+	<servlet-mapping>
+		<servlet-name>spiral</servlet-name>
+		<url-pattern>/spiral/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>spiral</servlet-name>
+		<jsp-file>/spyral/index.jsp</jsp-file>
+	</servlet>
+	
+    <servlet-mapping>
+        <servlet-name>spyral-manager</servlet-name>
+        <url-pattern>/spyral/oauth/callback</url-pattern>
+        <url-pattern>/spyral/account</url-pattern>
+        <url-pattern>/spyral/account/logout</url-pattern>
+        <url-pattern>/spyral/account/save</url-pattern>
+        <url-pattern>/spyral/account/delete</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>spyral-manager</servlet-name>
+        <servlet-class>org.voyanttools.voyant.Spyral</servlet-class>
+        <init-param>
+			<param-name>oauthprops</param-name>
+			<param-value>oauth.properties</param-value>
+		</init-param>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>spyral-oauth</servlet-name>
+        <url-pattern>/spyral/oauth</url-pattern>
+    </servlet-mapping>
+	<servlet>
+        <servlet-name>spyral-oauth</servlet-name>
+        <jsp-file>/spyral/oauth/index.jsp</jsp-file>
+        <init-param>
+			<param-name>oauthprops</param-name>
+			<param-value>oauth.properties</param-value>
+		</init-param>
+    </servlet>
+
+	<servlet-mapping>
+        <servlet-name>spyral-cookie</servlet-name>
+        <url-pattern>/spyral/cookie</url-pattern>
+    </servlet-mapping>
+	<servlet>
+        <servlet-name>spyral-cookie</servlet-name>
+        <jsp-file>/spyral/cookie/index.jsp</jsp-file>
+	</servlet>
+    
+	<servlet-mapping>
+        <servlet-name>spyral-sandbox</servlet-name>
+        <url-pattern>/spyral/sandbox.jsp</url-pattern>
+    </servlet-mapping>
+	<servlet>
+        <servlet-name>spyral-sandbox</servlet-name>
+        <jsp-file>/spyral/sandbox.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>spyral</servlet-name>
+        <url-pattern>/spyral/*</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>spyral</servlet-name>
+        <jsp-file>/spyral/index.jsp</jsp-file>
+    </servlet>
+	
+	<!-- this is to handle a bad URL in Hermeneutica the book -->
+	<servlet-mapping>
+		<servlet-name>collocatesgraph</servlet-name>
+		<url-pattern>/CollocatesGraph/*</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>collocatesgraph</servlet-name>
+		<jsp-file>/tool/index.jsp</jsp-file>
+	</servlet>
+	
+	<!-- available from http://localhost:8080/trombone?param=...&param=...&param=... -->
+	<servlet>
+		<servlet-name>trombone</servlet-name>
+		<servlet-class>org.voyanttools.voyant.Trombone</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>trombone</servlet-name>
+		<url-pattern>/trombone</url-pattern>
+	</servlet-mapping>
+
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	
+	<!-- make sure that Javascript is sent as UTF-8 (Jetty does this but Tomcat doesn't) -->
+	<mime-mapping>
+		<extension>js</extension>
+		<mime-type>application/javascript;charset=UTF-8</mime-type>
+	</mime-mapping>
+
+	<!-- universally set encoding for UTF-8 (simpliflies jsp includes)-->
+	<jsp-config>
+		<jsp-property-group>
+			<url-pattern>*.jsp</url-pattern>
+			<page-encoding>UTF-8</page-encoding>
+		</jsp-property-group>
+	</jsp-config>
+
+</web-app>

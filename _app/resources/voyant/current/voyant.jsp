@@ -1,0 +1,1 @@
+<% org.voyanttools.voyant.JSCacher.sendCache(request, response); // should always redirect %>

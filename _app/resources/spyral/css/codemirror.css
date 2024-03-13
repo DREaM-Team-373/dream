@@ -1,0 +1,14 @@
+/* tweaks for codemirror */
+
+/* hide line selection on blur */
+.CodeMirror-activeline-background {
+    background: transparent !important;
+}
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background: #F5F9FF !important;
+}
+
+/* this is used to set the max height for the entire cell */
+.notebook-data-wrapper .CodeMirror-scroll {
+	max-height: 400px;
+}

@@ -1,0 +1,227 @@
+{
+    "metadata": {
+        "created": 1491488686379,
+        "modified": 1495549542382,
+        "version": 2,
+        "previousNotebook": "alta-scale",
+        "originalUrl": "alta-scale",
+        "url": ""
+    },
+    "blocks": [
+        {
+            "type": "text",
+            "input": [
+                "<h1 style=\"text-align: center;\">Thinking about Corpus Scale</h1><p>This notebook",
+                " will help you think about corpus scale when working with Spyral Notebooks (it's",
+                " part of the <a data-tabindex-counter=\"58\" data-tabindex-value=\"none\" data-cke-s",
+                "aved-href=\"./\" href=\"./\" tabindex=\"-1\">Art of Literary Text Analysis with Spyral",
+                "&nbsp;Notebooks</a>). In particular, we'll look at:</p><ul><li><a data-tabindex-",
+                "counter=\"11\" data-tabindex-value=\"none\" data-cke-saved-href=\"#kinds\" href=\"#kind",
+                "s\" tabindex=\"-1\">what kinds of corpora are there?</a></li><li><a data-tabindex-c",
+                "ounter=\"10\" data-tabindex-value=\"none\" data-cke-saved-href=\"#smaller\" href=\"#sma",
+                "ller\" tabindex=\"-1\">word frequencies with a smaller corpus</a></li><li><a data-c",
+                "ke-saved-href=\"#larger\" href=\"#larger\" data-tabindex-value=\"none\" tabindex=\"-1\" ",
+                "data-tabindex-counter=\"7\">word frequencies with a larger corpus</a></li><li><a d",
+                "ata-tabindex-counter=\"58\" data-tabindex-value=\"none\" data-cke-saved-href=\"#next\"",
+                " href=\"#next\" tabindex=\"-1\">next steps</a></li></ul><h2><img class=\"cke_anchor\" ",
+                "data-cke-realelement=\"%3Ca%20id%3D%22kinds%22%20data-cke-saved-name%3D%22kinds%2",
+                "2%20name%3D%22kinds%22%3E%3C%2Fa%3E\" data-cke-real-node-type=\"1\" alt=\"Ancre\" tit",
+                "le=\"Ancre\" align=\"\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKA",
+                "AAALAAAAAABAAEAAAICRAEAOw==\" data-cke-real-element-type=\"anchor\">What Kinds of C",
+                "orpora are There?&nbsp;&nbsp;</h2><p>A corpus, as a body of text, is a very flui",
+                "d concept. In principle, a corpus can be constituted of a single character (let'",
+                "s call that miniscule) or it can be constituted from something like the <a data-",
+                "tabindex-counter=\"11\" data-tabindex-value=\"none\" data-cke-saved-href=\"https://wi",
+                "ki.htrc.illinois.edu/display/COM/Extracted+Features+Dataset\" href=\"https://wiki.",
+                "htrc.illinois.edu/display/COM/Extracted+Features+Dataset\" tabindex=\"-1\">HTRC fea",
+                "tures dataset</a> that's extracted from a corpus of -- at last check -- 13.8 mil",
+                "lion volumes and over 2 trillion tokens/words (let's call that colossal). Probab",
+                "ly more relevant to us are corpora in between, maybe from a single book, or a co",
+                "llection of poems or plays, or the entire works of an author, works from a speci",
+                "fic period or genre, works that are thematically related, etc. That's a lot of v",
+                "ariety and it doesn't even start to scratch the surface of the kinds of corpora ",
+                "people use with Voyant and Spyral, other examples include legal documents, news ",
+                "articles, collections of tweets, survey data.</p><p>Also important is to underst",
+                "and that a collection of texts might be arranged and rearranged in many ways to ",
+                "constitute different corpora. For instance, we may start with a collection of al",
+                "l the news articles from a given week of an online media source: we could treat ",
+                "the entire collection as a corpus. But we might also (not necessarily instead) w",
+                "ant to combine all the articles from a given day into a single document and then",
+                " have seven documents, one for each day. We might treat the different documents ",
+                "differently because different tools are better suited to certain corpus sizes. S",
+                "imilarly, we might want to do certain operations in Spyral on a single smaller d",
+                "ocument (because of what we're studying or because dealing with the entire corpu",
+                "s at once would be overwhelming for the browser).</p><p>A related issue is wheth",
+                "er we are operating on data in the browser or data on the server. For example, i",
+                "n the <a data-tabindex-counter=\"11\" data-tabindex-value=\"none\" data-cke-saved-hr",
+                "ef=\"alta-tables\" href=\"alta-tables\" tabindex=\"-1\" target=\"_blank\">previous noteb",
+                "ook</a> we counted all the letters in \"The Gold Bug\" though we started by loadin",
+                "g into the browser memory the entire text of the short story. That worked very w",
+                "ell because \"The Gold Bug\" is relatively short (about 13,700 words), but it woul",
+                "dn't work so well for our corpus of Jane Austen novels (about 781,000 words). Fo",
+                "r many operations in Spyral, the total number of words in the corpus may be the ",
+                "most useful measure for gauging the relative size of a corpus. You could have a ",
+                "corpus of 1,000 documents but if they each had only 100 words it would still be ",
+                "smaller than our \"Gold Bug\" short story.</p><p>In what follows we will compare d",
+                "oing approximately the same thing with a smaller corpus and with a bigger corpus",
+                ": we will show the highest frequency terms in a chart.</p><h2><img class=\"cke_an",
+                "chor\" data-cke-realelement=\"%3Ca%20id%3D%22smaller%22%20data-cke-saved-name%3D%2",
+                "2smaller%22%20name%3D%22smaller%22%3E%3C%2Fa%3E\" data-cke-real-node-type=\"1\" alt",
+                "=\"Ancre\" title=\"Ancre\" align=\"\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///",
+                "wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" data-cke-real-element-type=\"anchor\">Wor",
+                "d Frequences with a Smaller Corpus</h2><p>For the smaller corpus, we will once a",
+                "gain use Poe's \"The Gold Bug\" and we can again use the code we saw in an earlier",
+                " notebook on <a data-tabindex-counter=\"10\" data-tabindex-value=\"none\" data-cke-s",
+                "aved-href=\"alta-create#text\" href=\"alta-create#text\" tabindex=\"-1\" target=\"_blan",
+                "k\">Creating a Corpus with Plain Text</a>.</p><p><br></p>"
+            ]
+        },
+        {
+            "type": "code",
+            "input": [
+                "new Corpus(\"https://gist.githubusercontent.com/sgsinclair/84c9da05e9e142af30779cc91440e8c1/raw/goldbug.txt\", {",
+                "    inputRemoveUntil: 'THE GOLD-BUG',",
+                "    inputRemoveFrom: 'FOUR BEASTS IN ONE'",
+                "}).assign(\"goldbug\").show();"
+            ],
+            "mode": "javascript",
+            "output": [
+                "<div style='height: 31px'> <div class=\"info\">This corpus has 1 document with 13,",
+                "731 <span class=\"info-tip\" data-qtip=\"every occurrence of every word (like multi",
+                "ple occurrences of &quot;the&quot;) is counted\">total words</span> and 2,756 <sp",
+                "an class=\"info-tip\" data-qtip=\"multiple occurrences of words (like &quot;the&quo",
+                "t;) are counted once\">unique word forms</span>. Created <span class=\"info-tip\" d",
+                "ata-qtip=\"2017-05-23, 10:07:36\">about 7 minutes ago</span>.</div></div>"
+            ]
+        },
+        {
+            "type": "text",
+            "input": [
+                "<p>Again we see that the corpus is relatively small with some 13,700 words. In t",
+                "he previous notebook on Tables we saw how we could slurp the entire plain text d",
+                "ocument into a string variable. There's a related function which is to <a data-c",
+                "ke-saved-href=\"../docs/#!/api/Corpus-method-getWordsArray\" href=\"../docs/#!/api/",
+                "Corpus-method-getWordsArray\" target=\"_blank\" data-tabindex-value=\"none\" tabindex",
+                "=\"-1\" data-tabindex-counter=\"7\">get all the words</a> in an array (an ordered li",
+                "st of strings). Note that this function only provides words, no punctuation, tag",
+                "s, or other contents.</p>"
+            ]
+        },
+        {
+            "type": "code",
+            "input": "goldbug.getWordsArray({transformCase: \"lowercase\"}).assign(\"goldbugWords\").show(100); // show first 100 characters from comma-separated words",
+            "mode": "javascript",
+            "output": [
+                "<div style='height: 31px'> <div class=\"info\">thegoldbugwhathowhathothisfellowisd",
+                "ancingmadhehathbeenbittenbythetarantulaallinthewrongmanyyearsagoi</div></div>"
+            ]
+        },
+        {
+            "type": "text",
+            "input": [
+                "<p>Now, just as we did with letters in \"The Gold Bug\" we'll create a table of fr",
+                "equencies from our array of words, and immediately chart it.</p>\n"
+            ]
+        },
+        {
+            "type": "code",
+            "input": "new VoyantTable({count: goldbugWords, limit: 20, headers: [\"Words\",\"Counts\"]}).embed(\"VoyantChart\", {width: \"800px\"});",
+            "mode": "javascript",
+            "output": [
+                "<div style='height: 418px'> <div class=\"info\"><iframe style=\"width: 800px; heigh",
+                "t: 400px\" id=\"ext-237\" name=\"ext-237\" src=\"https://voyant-tools.org/tool/VoyantC",
+                "hart/?minimal=true&amp;embeddedApiId=6c2080e57073a586b11d84efb8178613\" data-tabi",
+                "ndex-value=\"none\" tabindex=\"-1\" data-tabindex-counter=\"1\"></iframe></div></div>"
+            ]
+        },
+        {
+            "type": "text",
+            "input": [
+                "<p>There we are, the famous Zipf's Law again! With very few lines of code we've ",
+                "been able to create this chart (some steps are put in separate blocks to ensure ",
+                "that they are run separately and sequentially):</p><blockquote><pre>new Corpus(\"",
+                "https://gist.githubusercontent.com/sgsinclair/84c9da05e9e142af30779cc91440e8c1/r",
+                "aw/goldbug.txt\", {\n&nbsp; &nbsp; inputRemoveUntil: 'THE GOLD-BUG',\n&nbsp; &nbsp;",
+                " inputRemoveFrom: 'FOUR BEASTS IN ONE'\n}).assign(\"goldbug\");\ngoldbug.getWordsArr",
+                "ay({transformCase: \"lowercase\"}).assign(\"goldbugWords\");\nnew VoyantTable({count:",
+                " goldbugWords, limit: 20, headers: [\"Words\",\"Counts\"]}).embed(\"VoyantChart\", {wi",
+                "dth: \"800px\"});\n</pre></blockquote><p>We can do it this way because it's reasona",
+                "ble to handle all the words in the browser memory, but sometimes it's not, so we",
+                " have to use a different approach.</p><h2><img class=\"cke_anchor\" data-cke-reale",
+                "lement=\"%3Ca%20id%3D%22larger%22%20data-cke-saved-name%3D%22larger%22%20name%3D%",
+                "22larger%22%3E%3C%2Fa%3E\" data-cke-real-node-type=\"1\" alt=\"Ancre\" title=\"Ancre\" ",
+                "align=\"\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAAB",
+                "AAEAAAICRAEAOw==\" data-cke-real-element-type=\"anchor\">Word Frequencies with a La",
+                "rger Corpus</h2><p>So, how can show a graph of high frequency terms with a large",
+                "r corpus? The key is to shift more processing to the server instead of doing it ",
+                "in the browser. Above we had to fetch and process&nbsp;in the browser an array w",
+                "ith&nbsp;<em>all</em>&nbsp;the words from the text, but that's not practical for",
+                " larger corpora. Many similar operations&nbsp;<em>are</em>&nbsp;possible, howeve",
+                "r. For instance, we can use <a data-cke-saved-href=\"../docs/#!/api/Corpus-method",
+                "-loadCorpusTerms\" href=\"../docs/#!/api/Corpus-method-loadCorpusTerms\" target=\"_b",
+                "lank\" data-tabindex-value=\"none\" tabindex=\"-1\" data-tabindex-counter=\"6\">loadCor",
+                "pusTerms</a> to fetch a specified number of terms (from a longer list that by de",
+                "fault is sorted by frequency and that include all words).</p>"
+            ]
+        },
+        {
+            "type": "code",
+            "input": [
+                "new Corpus(\"austen\").loadCorpusTerms({limit: 20}).assign(\"austenWords\").show();",
+                ""
+            ],
+            "mode": "javascript",
+            "output": [
+                "<div style='height: 31px'> <div class=\"info\">This store contains 20 items with t",
+                "hese fields: id, rawFreq, inDocumentsCount, relativeFreq, relativePeakedness, re",
+                "lativeSkewness, distributions, typeTokenRatio-lexical, term.</div></div>"
+            ]
+        },
+        {
+            "type": "text",
+            "input": [
+                "<p>This time we won't use the <code>count</code> parameter when creating a new <",
+                "a data-tabindex-counter=\"6\" data-tabindex-value=\"none\" data-cke-saved-href=\"../d",
+                "ocs/#!/api/VoyantTable\" href=\"../docs/#!/api/VoyantTable\" tabindex=\"-1\" target=\"",
+                "_blank\">Table</a>, but we can simply provide our <a data-tabindex-counter=\"6\" da",
+                "ta-tabindex-value=\"none\" data-cke-saved-href=\"../docs/#!/api/Voyant.data.store.C",
+                "orpusTerms\" href=\"../docs/#!/api/Voyant.data.store.CorpusTerms\" tabindex=\"-1\" ta",
+                "rget=\"_blank\">Corpus Terms store</a> while specifying that we're only interested",
+                " in two columns, \"term\" and \"rawFreq\". Then we simply embed the table as we've d",
+                "one before using the <a data-tabindex-counter=\"6\" data-tabindex-value=\"none\" dat",
+                "a-cke-saved-href=\"../docs/#!/api/Voyant.widget.VoyantChart\" href=\"../docs/#!/api",
+                "/Voyant.widget.VoyantChart\" tabindex=\"-1\" target=\"_blank\">VoyantChart</a> widget",
+                ".</p>"
+            ]
+        },
+        {
+            "type": "code",
+            "input": [
+                "new VoyantTable(austenWords, {headers: [\"term\",\"rawFreq\"]}).embed(\"VoyantChart\", {width: \"800px\"});",
+                ""
+            ],
+            "mode": "javascript",
+            "output": [
+                "<div style='height: 418px'> <div class=\"info\"><iframe style=\"width: 800px; heigh",
+                "t: 400px\" id=\"ext-236\" name=\"ext-236\" src=\"https://voyant-tools.org/tool/VoyantC",
+                "hart/?minimal=true&amp;embeddedApiId=bc93a9f7e78cf10a668fb7668f261450\" data-tabi",
+                "ndex-value=\"none\" tabindex=\"-1\" data-tabindex-counter=\"1\"></iframe></div></div>"
+            ]
+        },
+        {
+            "type": "text",
+            "input": [
+                "<h2><img class=\"cke_anchor\" data-cke-realelement=\"%3Ca%20id%3D%22next%22%20data-",
+                "cke-saved-name%3D%22next%22%20name%3D%22next%22%3E%3C%2Fa%3E\" data-cke-real-node",
+                "-type=\"1\" alt=\"Ancre\" title=\"Ancre\" align=\"\" data-cke-saved-src=\"data:image/gif;",
+                "base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" src=\"data:i",
+                "mage/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" da",
+                "ta-cke-real-element-type=\"anchor\">Next Steps</h2><p>If you're working sequential",
+                "ly&nbsp;through the <a data-tabindex-counter=\"24\" data-tabindex-value=\"none\" dat",
+                "a-cke-saved-href=\"alta\" href=\"alta\" tabindex=\"-1\" target=\"_blank\">Art of Literar",
+                "y Text Analysis with Spyral&nbsp;Notebooks</a>, the next notebook&nbsp;is Explor",
+                "ing a Larger Corpus.</p>"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "metadata": {
+        "created": 1464971928383,
+        "modified": 1498065630265,
+        "version": 2,
+        "url": "https://voyant-tools.org/spyral/alta",
+        "previousNotebook": "alta",
+        "originalUrl": "alta"
+    },
+    "blocks": [
+        {
+            "type": "text",
+            "input": [
+                "<h1 style=\"text-align: center\">The Art of Literary Text Analysis with Spyral Not",
+                "ebooks</h1>\n\n<p style=\"text-align: center\">by Stéfan Sinclair &amp; Geoffrey Roc",
+                "kwell</p>\n\n<p><em>The Art of Literary Text Analysis with Spyral Notebooks</em> h",
+                "as two objectives. First, it is designed as a guide to provide a gentle introduc",
+                "tion to concepts and methodologies for literary text analysis with computers – i",
+                "t is meant to be very welcoming to newcomers to digital tools for the study of t",
+                "exts. Second, the guide is intended to offer a glimpse of the wide range of poss",
+                "ible techniques for using tools to study texts – if it cannot hope to explain an",
+                "d demonstrate everything, it at least has the ambition of suggesting the breadth",
+                " of possibilities and providing a helpful foundation for further exploration and",
+                " experimentation.</p>\n\n<p>This instance of The Art of Literary Text Analysis is ",
+                "created in Spyral Notebooks (there's also companion version in <a data-tabindex-",
+                "counter=\"8\" data-tabindex-value=\"none\" href=\"https://github.com/sgsinclair/alta/",
+                "blob/master/ipynb/ArtOfLiteraryTextAnalysis.ipynb\" tabindex=\"-1\">iPython Noteboo",
+                "ks</a>).&nbsp;Other choices are available, and many conceptual aspects of the gu",
+                "ide are relevant regardless of the implementation. Spyral Notebooks was chosen f",
+                "or four main reasons:</p>\n\n<ol>\n\t<li>Spyral Notebooks requires no setup or insta",
+                "llation to get started, you just visit a web page;</li>\n\t<li>Spyral Notebooks le",
+                "verages the analytic and visualization capabilities of <a data-tabindex-counter=",
+                "\"8\" data-tabindex-value=\"none\" href=\"http://voyant-tools.org\" tabindex=\"-1\">Voya",
+                "nt Tools</a>;</li>\n\t<li>code in Spyral Notebooks&nbsp;is essentially written in ",
+                "Javascript, a relatively friendly language to learn and one that's widely used;<",
+                "/li>\n\t<li>Spyral Notebooks offers a&nbsp;<em>literate programming</em>&nbsp;mode",
+                "l of writing where blocks of prose text (like this one) can be interspersed with",
+                " bits of code and output (like below).&nbsp;<em>The Art of Literary Text Analysi",
+                "s</em>&nbsp;focuses on process, and the documentation-rich format offered by Spi",
+                "ral Notebooks is well-suited to the nature of this guide.</li>\n</ol>\n"
+            ]
+        },
+        {
+            "type": "code",
+            "input": [
+                "// create a corpus and show word cloud",
+                "new Corpus(\"http://hermeneuti.ca\").embed(\"cirrus\");"
+            ],
+            "mode": "javascript",
+            "output": [
+                "<div style='height: 432px'><div style=\"height: 418px\"> <div class=\"info\"><iframe",
+                " style=\"width: 90%; height: 400px\" id=\"ext-90\" name=\"ext-90\" src=\"https://voyant",
+                "-tools.org/tool/Cirrus/?minimal=true&amp;embeddedApiId=971a002031ef559c1776edc5a",
+                "5bb931a\" data-tabindex-value=\"none\" tabindex=\"-1\" data-tabindex-counter=\"2\"></if",
+                "rame></div></div></div>"
+            ]
+        },
+        {
+            "type": "text",
+            "input": [
+                "<h2>Table of Contents</h2><ul><li><a data-tabindex-counter=\"8\" data-tabindex-val",
+                "ue=\"none\" data-cke-saved-href=\"./alta-start\" href=\"./alta-start\" tabindex=\"-1\" t",
+                "arget=\"_blank\">Getting Started</a> (introducing core concepts of Spyral Notebook",
+                "s)</li><li><a data-tabindex-counter=\"6\" data-tabindex-value=\"none\" data-cke-save",
+                "d-href=\"./alta-create\" href=\"./alta-create\" tabindex=\"-1\" target=\"_blank\">Creati",
+                "ng a Corpus</a>&nbsp;(how to create a corpus with Voyant or programmatically wit",
+                "h strings or URLs)</li><li><a data-tabindex-counter=\"6\" data-tabindex-value=\"non",
+                "e\" data-cke-saved-href=\"./alta-smaller\" href=\"./alta-smaller\" tabindex=\"-1\" targ",
+                "et=\"_blank\">Exploring a Smaller Corpus</a>&nbsp;(how to begin exploring a smalle",
+                "r corpus, Edgar Allan Poe's \"The Gold Bug\")</li><li><a data-tabindex-counter=\"6\"",
+                " data-tabindex-value=\"none\" data-cke-saved-href=\"./alta-tables\" href=\"./alta-tab",
+                "les\" tabindex=\"-1\" target=\"_blank\">Introducing Tables</a>&nbsp;(introducing core",
+                " concepts of working with custom data and tables)</li><li>Exploring a Larger Cor",
+                "pus</li></ul>"
+            ]
+        }
+    ]
+}
